@@ -5,13 +5,13 @@ name: CI for Node
 
 on:
   push:
-    branches: [ "main" ]
-    paths:
-      - 'web/**'
+#     branches: [ "main" ]
+#     paths:
+#       - 'web/**'
   pull_request:
-    branches: [ "main" ]
-    paths:
-      - 'web/**'
+#     branches: [ "main" ]
+#     paths:
+#       - 'web/**'
 
 jobs:
   build:
