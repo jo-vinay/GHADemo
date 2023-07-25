@@ -51,9 +51,9 @@ jobs:
 
                nvm instal 14
                npm install -g pm2
-               cd ~/CICD
+               cd ~/gha
                git pull origin main
                npm install
                npm run build
-               pm2 restart api
+               pm2 restart app
           
