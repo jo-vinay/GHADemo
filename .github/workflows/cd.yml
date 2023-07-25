@@ -1,7 +1,9 @@
 name: CD for NodeJS
 
+on: 
+
+jobs:
   depoly:
-    on: 
     runs-on: ubuntu-latest
 
     steps:
