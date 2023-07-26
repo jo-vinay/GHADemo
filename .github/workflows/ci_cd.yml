@@ -32,7 +32,6 @@ jobs:
     env: 
           CI: true   
 
-
   depoly:
     needs: [build]
     runs-on: ubuntu-latest
